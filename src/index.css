@@ -1,5 +1,5 @@
 :root {
-  --color: #ffffff;
+  --color: #fafafa;
   --background-color: #000000;
 
   font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -40,9 +40,9 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     --color: #000000;
-    --background-color: #ffffff;
+    --background-color: #fafafa;
 
     color: #000000;
-    background-color: #ffffff;
+    background-color: #fafafa;
   }
 }

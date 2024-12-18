@@ -12,11 +12,11 @@ export const ModeButton = () => {
   useEffect(() => {
     document.documentElement.style.setProperty(
       "--background-color",
-      mode === "light" ? "#ffffff" : "#000000"
+      mode === "light" ? "#fafafa" : "#000000"
     );
     document.documentElement.style.setProperty(
       "--color",
-      mode === "light" ? "#000000" : "#ffffff"
+      mode === "light" ? "#000000" : "#fafafa"
     );
   }, [mode]);
 
