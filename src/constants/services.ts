@@ -19,31 +19,31 @@ export const services = [
     name: "Policy",
     url: `${origin}/policy/api/v1/address/postcodeLookup?postcode=2000&propertyType=HOUSE`,
   },
-  /* {
-	   name: "Property address",
-	   url: `${origin}/property/api/v2/address`,
-	   payload: {
-	     valid: true,
-	     longitude: 151.2041531,
-	     latitude: -33.86848383,
-	     postcode: "2000",
-	     state: "NSW",
-	     suburb: "Sydney",
-	     street: { type: "Street", number: "347", name: "Kent" },
-	     buildingName: null,
-	   },
-	 },*/
+  // {
+	//    name: "Property address",
+	//    url: `${origin}/property/api/v2/address`,
+	//    payload: {
+	//      valid: true,
+	//      longitude: 151.2041531,
+	//      latitude: -33.86848383,
+	//      postcode: "2000",
+	//      state: "NSW",
+	//      suburb: "Sydney",
+	//      street: { type: "Street", number: "347", name: "Kent" },
+	//      buildingName: null,
+	//    },
+	// },
   {
     name: "Serviceability",
     url: `${origin}/serviceability/v5/calculate`,
     payload: serviceabilityPayload,
   },
-  {
-    name: "Authentication",
-    url: `https://status.auth0.com/api/auth/me`,
-  },
-  {
-    name: "DP3",
-    url: `https://prod.decisionpoint3.com/veda6/cm/casemanager/login.jsp#myHome`,
-  },
+  // {
+  //   name: "Authentication",
+  //   url: `https://status.auth0.com/api/auth/me`,
+  // },
+  // {
+  //   name: "DP3",
+  //   url: `https://prod.decisionpoint3.com/veda6/cm/casemanager/login.jsp#myHome`,
+  // },
 ];
